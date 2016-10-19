@@ -1,0 +1,1 @@
+<a href="<?=SITE_DIR?>"><img src="/theme_files/Logo_test.jpg" title="Интернет-магазин Луноход" width="209" height="68"></a><br>

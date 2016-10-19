@@ -1,0 +1,26 @@
+.contact-form .field label{
+font-size:13px;
+}
+.contact-form .input_text_style{
+display:block;
+}
+
+.contact-form textarea{
+height:90px!important;
+margin:2px 0 0;
+}
+
+.contact-form .errortext{
+display: block;
+padding: 0 0 10px;
+}
+
+.content .contact-form,
+.personal .contact-form{
+width:360px;
+}
+
+.content .contact-form textarea.input_text_style,
+.personal .contact-form textarea.input_text_style{
+height:120px;
+}

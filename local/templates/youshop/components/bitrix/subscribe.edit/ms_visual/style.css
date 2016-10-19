@@ -1,0 +1,29 @@
+div.subscribe-edit .red,
+.starrequired{
+color:red;
+}
+div.subscribe-edit .green{
+color:green;
+}
+div.subscribe-edit .errorcolor{
+color:red;
+}
+div.subscribe-edit .successcolor{
+color:green;
+}
+
+.subscribe-edit h4{
+margin: 0 0 10px;
+}
+
+.subscribe-edit .title{
+display: block;
+margin: 0 0 4px;
+}
+
+.subscribe-edit .btn{
+margin:0 10px 0 0;
+}
+.subscribe-edit .input_text_style{
+width:80%;
+}

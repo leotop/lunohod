@@ -1,0 +1,46 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Каталог", 
+		"catalog/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Оплата", 
+		"payment/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Доставка", 
+		"delivery/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Возврат товара и денег", 
+		"guaranty/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"contacts/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Мой кабинет", 
+		"personal/", 
+		Array(), 
+		Array(), 
+		"CUser::IsAuthorized()" 
+	)
+);
+?>

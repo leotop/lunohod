@@ -1,0 +1,304 @@
+.jcarousel {
+overflow: hidden;
+position: relative;
+}
+.jcarousel > ul {
+list-style: none outside none;
+margin: 0;
+padding: 0;
+position: relative;
+width: 20000em;
+}
+.jcarousel > ul > li {
+float: left;
+margin:0;
+}
+
+
+.jcarousel-item{float:left;}
+
+.products_carousel_wrap h3{
+background: #fff;
+float: left;
+margin: -12px 0 0 15px;
+padding: 0 10px;
+}
+
+.products_carousel{
+clear:both;
+padding:10px 0;
+position:relative;
+overflow:hidden;
+}
+
+.products_carousel .jcarousel-prev,
+.products_carousel .jcarousel-next{
+background:url(arrows.png) #E0E3E7 no-repeat 0 50%;
+cursor:pointer;
+position:absolute;
+top:30%;
+height:65px;
+width:18px;
+}
+.products_carousel .jcarousel-prev{
+background-position:3px 50%;
+left:0;
+-webkit-border-radius:0 5px 5px 0;
+-moz-border-radius:0 5px 5px 0;
+border-radius:0 5px 5px 0;
+}
+.products_carousel .jcarousel-next{
+background-position:-21px 50%;
+right:0;
+-webkit-border-radius:5px 0 0 5px;
+-moz-border-radius:5px 0 0 5px;
+border-radius:5px 0 0 5px;
+}
+
+.products_carousel .jcarousel-clip{
+overflow:hidden;
+margin:0 auto;
+width:720px;
+}
+
+.products_carousel ul{
+margin:0;
+padding:0;
+list-style:none;
+width:5000px;
+position:relative;
+overflow:hidden;
+}
+
+.products_carousel ul > li{
+margin:0;
+position:relative;
+padding:0;
+width:180px;
+float:left;
+}
+
+.products_carousel .item{
+padding:0 25px;
+}
+
+.products_carousel{}
+
+.products_carousel .item_images{
+position: relative;
+display: block;
+padding-top: 180px;
+width: 100%;
+background-position: center;
+background-repeat: no-repeat;
+-webkit-background-size:contain;
+background-size:contain;
+}
+
+.products_carousel .item_title{
+font-size: 13px;
+line-height:16px;
+height:32px;
+overflow:hidden;
+margin:0 0 5px;
+}
+
+.products_carousel .item_title a{
+color: #3F3F3F;
+text-decoration: none;
+display:block;
+}
+
+.products_carousel .item_title a:hover{
+text-decoration: underline;
+}
+
+.products_carousel .bx_catalog_item_price{
+color: #3F3F3F;
+font-weight: bold;
+}
+
+
+.products_carousel .bx_catalog_item_price span{
+color: #A5A5A5;
+font-size: 12px;
+font-weight: normal;
+text-decoration: line-through;
+white-space: nowrap;
+}
+
+.catalog-detail-recommends .products_carousel .jcarousel-prev{left:10px;}
+.catalog-detail-recommends .products_carousel .jcarousel-next{right:10px;}
+
+
+
+
+
+
+
+/**********************
+== LOGOS
+**********************/
+
+.logoCarousel{
+margin: 0 0 30px;
+position: relative;
+}
+
+.logoCarousel h3{
+margin-bottom: 20px;
+}
+
+.logoCarousel_in{
+position:relative;
+}
+
+.logoCarousel .jcarousel{
+margin:0 49px;
+}
+
+
+.logoCarousel .jcarousel > ul > li{
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+position:relative;
+width:168px;
+height:60px;
+overflow:hidden;
+text-align:center;
+}
+
+.logoCarousel .jcarousel > ul > li a{
+text-decoration: none;
+}
+
+.logoCarousel .jcarousel > ul > li i{
+display:inline-block;
+height:100%;
+margin-left:-4px;
+vertical-align:middle;
+width:0;
+}
+
+.logoCarousel .jcarousel > ul > li img{
+display:inline-block;
+max-height:100%;
+max-width:100%;
+text-align:center;
+vertical-align:middle;
+}
+
+
+.logoCarousel .jcc{
+width:22px;
+position:absolute;
+top:0;
+bottom:0;
+}
+
+
+.logoCarousel.disabled .jcc{
+opacity: 0.5;
+cursor: default;
+}
+
+
+.logoCarousel .jcc span{
+top:50%;
+left:0;
+margin:-18px 0 0 0;
+background:url(arrows2.png) no-repeat 0 0;
+width:22px;
+height:36px;
+position:absolute;
+}
+
+.logoCarousel .jcarousel-control-prev{left:10px;}
+
+.logoCarousel .jcarousel-control-prev:hover span{background-position:0 -36px;}
+
+.logoCarousel.disabled .jcarousel-control-prev:hover span{background-position:0 0;}
+
+
+.logoCarousel .jcarousel-control-next{right:10px;}
+
+.logoCarousel .jcarousel-control-next span,
+.logoCarousel.disabled .jcarousel-control-next:hover span{background-position:-22px 0;}
+
+.logoCarousel .jcarousel-control-next:hover span{background-position:-22px -36px;}
+
+
+
+/**********************
+== productsCarousel
+**********************/
+
+.productsCarousel{
+margin: 0 0 30px;
+position: relative;
+}
+
+.productsCarousel h3{
+margin-bottom: 20px;
+}
+
+.productsCarousel_in{
+position:relative;
+}
+
+.productsCarousel .jcarousel{
+margin:0 50px -400px;
+padding: 0 0 400px;
+}
+
+.productsCarousel.disabled .jcarousel{
+margin: 0 0 -400px;
+}
+
+.productsCarousel .jcarousel > ul > li{
+position:relative;
+width:220px;
+}
+
+body.st1 .bx_item_detail ~ .productsCarousel .jcarousel{margin:0 39px -400px;}
+body.st1 .bx_item_detail ~ .productsCarousel .jcarousel > ul > li{width:215px;}
+
+.productsCarousel .jcc{
+width:22px;
+position:absolute;
+top:0;
+height: 297px;
+}
+
+.productsCarousel.disabled .jcc{
+opacity: 0.5;
+cursor: default;
+display: none;
+}
+
+
+.productsCarousel .jcc span{
+top:50%;
+left:0;
+margin:-18px 0 0 0;
+background:url(arrows2.png) no-repeat 0 0;
+width:22px;
+height:36px;
+position:absolute;
+}
+
+.productsCarousel .jcarousel-control-prev{left:10px;}
+
+.productsCarousel .jcarousel-control-prev:hover span{background-position:0 -36px;}
+
+.productsCarousel.disabled .jcarousel-control-prev:hover span{background-position:0 0;}
+
+
+.productsCarousel .jcarousel-control-next{right:10px;}
+
+.productsCarousel .jcarousel-control-next span,
+.productsCarousel.disabled .jcarousel-control-next:hover span{background-position:-22px 0;}
+
+.productsCarousel .jcarousel-control-next:hover span{background-position:-22px -36px;}
+

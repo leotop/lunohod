@@ -1,0 +1,30 @@
+a.search-page-params {
+border-bottom: 1px dashed blue;
+text-decoration: none;
+}
+div.search-page-params {
+margin-top: 6px;
+}
+.search-item-rate {font-size: 11px;}
+
+.search-page{
+margin: 0 0 40px;
+}
+
+.search-page .search-block{
+width:420px;
+height:36px;
+}
+
+.search-page .search-block .search-field{
+border:none;
+padding:9px 14px;
+font-size: 14px;
+height: 36px;
+width:348px;
+}
+
+.search-page .search-block .search-btn{
+border:none;
+height:36px;
+}

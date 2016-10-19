@@ -1,0 +1,46 @@
+.bx-catalog-tab-section-container{position: relative;}
+
+.bx-catalog-tab-list{
+margin: 5px 0 20px;
+}
+
+.bx-catalog-tab-list li{
+display: inline-block;
+margin: 0 10px 0 0;
+}
+
+.bx-catalog-tab-list li a{
+text-decoration:none;
+}
+
+.bx-catalog-tab-list li.bt2 a{
+color:#4E545B !important;
+}
+
+.bx-catalog-tab-list li.bt3 a{
+color:#fff !important;
+}
+
+.bx-catalog-tab-body-container .container>div.tab-off{
+opacity: 0;
+height: 0;
+overflow: hidden;
+-webkit-transition:all 0.4s ease-out;
+-ms-transition:all 0.4s ease-out;
+-moz-transition:all 0.4s ease-out;
+-o-transition:all 0.4s ease-out;
+transition:all 0.4s ease-out;
+}
+
+.bx-catalog-tab-body-container .container>div{
+opacity: 1;
+-webkit-transition:all 0.6s ease-out;
+-ms-transition:all 0.6s ease-out;
+-moz-transition:all 0.6s ease-out;
+-o-transition:all 0.6s ease-out;
+transition:all 0.6s ease-out;
+}
+
+.bx-catalog-tab-body-container .container .hidden{
+display: none;
+}

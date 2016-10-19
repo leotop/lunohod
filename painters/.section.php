@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Художники";
+$arDirProperties = Array(
+
+);
+?>

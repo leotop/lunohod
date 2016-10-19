@@ -1,0 +1,29 @@
+.bx_news_detail h3{margin-top:18px;margin-bottom:10px}
+
+.bx_news_detail p{margin:0 0 10px}
+
+.bx_news_detail .detail_picture{
+float:left;
+margin:0 25px 10px 0;
+}
+
+.bx_news_detail .date {
+color: #8F8F8F;
+font-size: 12px;
+margin: 10px 0;
+}
+
+.bx_news_detail h2 a:link {
+color: #0073a3;
+font-size: 16px;
+}
+.bx_news_detail a {
+cursor: pointer;
+}
+
+.bx_news_detail table tr td {
+border: 1px solid #d3d3d3;
+padding: 5px;
+display: table-cell;
+vertical-align: inherit;
+}

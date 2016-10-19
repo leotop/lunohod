@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Переводчики";
+$arDirProperties = Array(
+
+);
+?>

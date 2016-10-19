@@ -1,0 +1,35 @@
+/* feedback-popup */
+
+.fancybox-skin .title{padding-top:0;margin-bottom:10px;}
+
+.feedback-form .field label{
+font-size:13px;
+}
+
+#feedback-popup{
+width:300px;
+padding:0 12px;
+}
+
+#feedback-popup .input_text_style{
+display:block;
+}
+
+#feedback-popup textarea{
+height:90px!important;
+margin:2px 0 0;
+}
+
+#feedback-popup .errortext,
+#feedback-popup .notetext{
+display: block;
+padding: 0 0 10px;
+}
+
+.content .feedback-form{
+width:360px;
+}
+
+.content .feedback-form textarea.input_text_style{
+height:120px;
+}

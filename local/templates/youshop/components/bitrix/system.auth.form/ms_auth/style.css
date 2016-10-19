@@ -1,0 +1,65 @@
+
+.auth-reg{
+color:#9a9a9a;
+float: right;
+height:42px;
+line-height:40px;
+}
+
+.auth-reg a{
+color:#6f6f6f;
+display: inline-block;
+height:42px;
+line-height:40px;
+text-decoration: none;
+}
+
+.auth-reg a:hover{
+color: #0070a7;
+}
+
+.auth-reg a.auth-link,
+.auth-reg a.profile-link{
+background:url(images/top-auth.png) no-repeat 0 48%;
+padding:0 0 0 26px;
+}
+
+.auth-reg span{margin:0 5px;}
+
+.login-form{
+display:none;
+position:absolute;
+background:#fff;
+border:1px solid #dcdcdc;
+padding:15px;
+left: auto;
+right: 25px;
+top: 42px;
+width: 157px;
+z-index: 10;
+-webkit-border-radius:3px;
+-moz-border-radius:3px;
+border-radius:3px;
+
+-moz-box-shadow:0 0 6px 2px rgba(0,0,0,0.15);
+-webkit-box-shadow:0 0 6px 2px rgba(0,0,0,0.15);
+box-shadow:0 0 6px 2px rgba(0,0,0,0.15);
+}
+
+.login-form .input_text_style{
+font-size:13px;
+}
+
+.login-form p{
+margin:0 0 10px;
+}
+
+.login-form .rememberme{
+cursor:pointer;
+margin:0;
+}
+
+.login-form .rememberme span{
+position:absolute;
+margin:2px 0 0;
+}

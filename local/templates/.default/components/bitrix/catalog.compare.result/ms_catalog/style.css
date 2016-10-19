@@ -1,0 +1,277 @@
+
+.catalog-compare-result{
+margin: -11px 0 0;
+}
+
+.catalog-compare-result h1{
+margin:0 0 20px;
+}
+
+
+.catalog-compare-result .scroll-bar-wrap{
+background:#f2f2f2;
+border:1px solid #dfdfdf;
+right:0;
+height:20px;
+padding:0 5px;
+
+position:absolute;
+z-index:4;
+top:257px;
+left:220px;
+}
+
+.catalog-compare-result .scroll-bar-wrap .ui-slider { background: none; border:0; height: 20px; margin: 0 auto; }
+
+.catalog-compare-result .scroll-bar-wrap .ui-handle-helper-parent {
+position: relative; width: 100%; height: 100%; margin: 0 auto;
+}
+
+.catalog-compare-result .scroll-bar-wrap .ui-slider-handle{
+background:#dedede!important;
+top:5px;
+height:8px;
+border:1px solid #c1c1c1!important;
+}
+
+
+.ct_outer_wrap {
+position: relative;
+
+}
+
+.ct-left{
+position:absolute;
+left:0;
+top:0;
+width:160px;
+z-index:2;
+}
+
+.ct-left .btn{
+font-size: 14px;
+width: 100%;
+margin: 0 0 10px;
+}
+
+.ct-left .btn.disabled,
+.ct-left .btn.disabled:hover{
+color: #4e545b;
+cursor: default;
+}
+
+.ct-left .ct_remove_all{
+margin:0 0 40px;
+}
+
+.ct_remove_all:hover{
+
+}
+
+.ct_remove_all input{
+
+}
+
+
+.ct_diff{}
+
+.ct_diff .ct_d_btn{
+height:34px;
+color:#535353;
+font-size:16px;
+line-height:32px;
+display:block;
+margin:0 0 10px;
+padding:0 20px;
+text-decoration:none;
+border:1px solid #e5e5e5;
+position:relative;
+background: #ffffff;
+background: -moz-linear-gradient(top,  #ffffff 0%, #f2f2f2 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f2f2f2));
+background: -webkit-linear-gradient(top,  #ffffff 0%,#f2f2f2 100%);
+background: -o-linear-gradient(top,  #ffffff 0%,#f2f2f2 100%);
+background: -ms-linear-gradient(top,  #ffffff 0%,#f2f2f2 100%);
+background: linear-gradient(to bottom,  #ffffff 0%,#f2f2f2 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 );
+
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+}
+
+.ct_diff .ct_d_btn:hover,
+.ct_diff .ct_d_btn.active{
+border-color:#b8dcf3;
+color:#34a2db;
+background: #e0f3ff;
+background: -moz-linear-gradient(top,  #e0f3ff 0%, #d4e7f2 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e0f3ff), color-stop(100%,#d4e7f2));
+background: -webkit-linear-gradient(top,  #e0f3ff 0%,#d4e7f2 100%);
+background: -o-linear-gradient(top,  #e0f3ff 0%,#d4e7f2 100%);
+background: -ms-linear-gradient(top,  #e0f3ff 0%,#d4e7f2 100%);
+background: linear-gradient(to bottom,  #e0f3ff 0%,#d4e7f2 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0f3ff', endColorstr='#d4e7f2',GradientType=0 );
+}
+
+.ct_diff .ct_d_btn.active{
+padding-left:44px;
+cursor:default;
+}
+
+.ct_diff .ct_d_btn.active:after{
+background:url(images/ctda.png) no-repeat 0 50%;
+content:" ";
+position:absolute;
+left:19px;
+top:0;
+height:100%;
+width:17px;
+}
+
+
+.ct_inner_wrap {
+margin: 0 0 0 220px;
+overflow:auto;
+}
+
+body #container .compare_table{
+margin:0;
+table-layout:fixed;
+width: auto;
+}
+
+
+body #container .compare_table thead{
+background:none;
+}
+
+
+
+body #container .compare_table thead th,
+body #container .compare_table thead td{
+padding-top:0;
+padding-bottom:0;
+border: none;
+}
+
+
+
+body #container .compare_table th,
+body #container .compare_table td{
+color:#434343;
+font-size:13px;
+border:none;
+padding:0;
+text-align:left;
+padding:5px 10px 7px;
+vertical-align: top;
+
+white-space: normal;
+
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+}
+
+body #container .compare_table th{
+left: 0;
+padding:5px 10px 7px;
+position: absolute;
+text-align: left;
+width:220px;
+background: none;
+font-weight: normal;
+}
+
+
+body #container .compare_table td{
+width:196px;
+line-height:18px;
+}
+
+body #container .compare_table tbody tr td:last-child{
+padding-right:20px;
+}
+
+body #container .compare_table.scrollable thead tr td:last-child{
+padding-right:0;
+}
+
+body #container .compare_table.scrollable tbody tr td:last-child{
+padding-right:10px;
+}
+
+body #container .compare_table td .product_img {
+display: block;
+height: 160px;
+margin: 0 0 6px;
+position:relative;
+text-align:center;
+}
+
+body #container .compare_table td .product_img .ct_del{
+background:url(images/ct_del.png) no-repeat 0 0;
+width:28px;
+height:28px;
+position:absolute;
+right:0;
+top:0;
+}
+
+body #container .compare_table td .product_img img{
+max-width:160px;
+max-height:160px;
+
+width:auto;
+height:auto;
+}
+
+
+body #container .compare_table .ct_name td a{
+height:36px;
+font-size:14px;
+line-height:18px;
+overflow:hidden;
+display:block;
+}
+
+body #container .compare_table .ct_name > *{
+padding-bottom: 20px;
+}
+
+
+body #container .compare_table .ct_canbuy > *{
+padding-top:10px;
+padding-bottom:11px;
+}
+
+body #container .compare_table.scrollable .ct_canbuy > *{
+padding-bottom:20px;
+}
+
+body #container .compare_table .ct_cb{
+height:32px;
+}
+
+body #container .compare_table .ct_cb .buy-btn,
+body #container .compare_table .ct_cb .price{
+display:inline-block;
+vertical-align:middle;
+}
+
+body #container .compare_table .stock-no{
+text-align:center;
+}
+
+
+
+body #container .compare_table thead{}
+
+
+body #container .compare_table tbody tr:nth-child(odd) > *{
+background:#f2f2f2;
+}
+
+
+
